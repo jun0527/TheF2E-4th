@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
-// import HomeView from "../views/HomeView.vue";
+import F2E_Index from "../views/F2E_Index.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: "/",
-    //   name: "home",
-    //   component: HomeView,
-    // },
+    {
+      path: "/",
+      name: "F2E_Index",
+      component: F2E_Index,
+    },
     // {
     //   path: "/about",
     //   name: "about",

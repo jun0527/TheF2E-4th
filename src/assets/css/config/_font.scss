@@ -34,27 +34,27 @@
   src: url("../../font/GenJyuuGothic-P-Regular.ttf") format("truetype");
 }
 
-h1 {
+.h1 {
   font-size: 32px;
   font-weight: 700;
   line-height: 1.25;
 }
-h2 {
+.h2 {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.25;
 }
-h3 {
+.h3 {
   font-size: 44px;
   font-weight: 700;
   line-height: 1.25;
 }
-h4 {
+.h4 {
   font-size: 32px;
   font-weight: 700;
   line-height: 1.4;
 }
-h5 {
+.h5 {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.4;
@@ -69,23 +69,42 @@ h5 {
   body {
     font-size: 16px;
   }
-  h1 {
+  .h1 {
     font-size: 20px;
   }
-  h2 {
+  .h2 {
     font-size: 28px;
   }
-  h3 {
+  .h3 {
     font-size: 24px;
     line-height: 1.4;
   }
-  h4 {
+  .h4 {
     font-size: 20px;
   }
-  h5 {
+  .h5 {
     font-size: 18px;
   }
   .highlight {
+    font-size: 18px;
+  }
+  .h1-m {
+    font-size: 20px;
+  }
+  .h2-m {
+    font-size: 28px;
+  }
+  .h3-m {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .h4-m {
+    font-size: 20px;
+  }
+  .h5-m {
+    font-size: 18px;
+  }
+  .highlight-m {
     font-size: 18px;
   }
 }
