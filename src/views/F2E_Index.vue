@@ -6,6 +6,7 @@
     <Start></Start>
     <QuestionArea></QuestionArea>
     <Contestant></Contestant>
+    <Subject></Subject>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import FixBackground from "@/components/FixBackground.vue";
 import Start from "@/components/Start.vue";
 import QuestionArea from "@/components/QuestionArea.vue";
 import Contestant from "@/components/Contestant.vue";
+import Subject from "@/components/Subject.vue";
 
 export default {
   name: "F2E_Index",
@@ -32,6 +34,7 @@ export default {
     Start,
     QuestionArea,
     Contestant,
+    Subject,
   },
   methods: {
     // init() {

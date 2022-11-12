@@ -7,11 +7,31 @@
   margin: 0 auto;
 }
 
+@media (max-width: 960px) {
+  .title_bg.title_bg {
+    // mix titleBg
+    width: 730px;
+    background-size: 98.57px 151px, 532.86px 151px, 98.57px 151px;
+    padding-top: 32px;
+    h2 {
+      font-size: 48px;
+    }
+  }
+}
 @media (max-width: 768px) {
-  .title_bg {
+  .title_bg.title_bg {
+    width: 100vw;
+    height: 72px;
     background-image: url("@/assets/image/bg/bg_talking_c.png");
     background-position: top;
     background-repeat: no-repeat;
     margin: 0 auto;
+    background-size: 100vw 72px;
+    padding-top: 12.4px;
+    padding-bottom: 25.5px;
+    h2 {
+      font-size: 24px;
+      line-height: 1.4;
+    }
   }
 }
