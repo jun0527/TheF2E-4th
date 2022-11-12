@@ -341,8 +341,8 @@ export default {
       bottom: 0.61px;
     }
     .racing_road {
-      width: 355;
-      left: 20px;
+      width: 100%;
+      left: 0;
       top: 618px;
       bottom: 0;
     }

@@ -2,7 +2,7 @@
   <div class="map-start">
     <div class="map-start__logo">
       <div class="logo_img"></div>
-      <h1 class="h1">互動式網頁設計</h1>
+      <h1 class="h1 h1-m">互動式網頁設計</h1>
     </div>
     <ul class="map-start__group">
       <li>
@@ -13,14 +13,14 @@
         </div>
       </li>
       <li>
-        <span class="h5 group__title">UI設計師</span>
+        <span class="h5 h4-m group__title">UI設計師</span>
         <div class="group__number">
           <span class="icon icon-user--white icon-22"></span>
           <span class="group__number-text">110</span>
         </div>
       </li>
       <li>
-        <span class="h5 group__title">團體組</span>
+        <span class="h5 h4-m group__title">團體組</span>
         <div class="group__number">
           <span class="icon icon-user--white icon-22"></span>
           <span class="group__number-text">41</span>
@@ -45,6 +45,9 @@ export default {
 </script>
 <style lang="scss" scope>
 @import "@/assets/css/colors.scss";
+.map-start {
+  height: 100vh;
+}
 .map-start__logo {
   width: 680px;
   margin: 0 auto;

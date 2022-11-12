@@ -109,6 +109,9 @@ export default {
   .menu_switch-button {
     top: 12px;
   }
+  .sidebar_menu {
+    width: 135px;
+  }
 }
 .menu_button {
   margin-bottom: 40px;

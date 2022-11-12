@@ -1,0 +1,17 @@
+.title_bg {
+  background-image: url("@/assets/image/bg/bg_talking_l.png"),
+    url("@/assets/image/bg/bg_talking_c.png"),
+    url("@/assets/image/bg/bg_talking_r.png");
+  background-position: left, center, right;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .title_bg {
+    background-image: url("@/assets/image/bg/bg_talking_c.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+}
