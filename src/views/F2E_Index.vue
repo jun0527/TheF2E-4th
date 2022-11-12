@@ -7,6 +7,7 @@
     <QuestionArea></QuestionArea>
     <Contestant></Contestant>
     <Subject></Subject>
+    <ActivityTimeline></ActivityTimeline>
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import Start from "@/components/Start.vue";
 import QuestionArea from "@/components/QuestionArea.vue";
 import Contestant from "@/components/Contestant.vue";
 import Subject from "@/components/Subject.vue";
+import ActivityTimeline from "@/components/ActivityTimeline.vue";
 
 export default {
   name: "F2E_Index",
@@ -35,6 +37,7 @@ export default {
     QuestionArea,
     Contestant,
     Subject,
+    ActivityTimeline,
   },
   methods: {
     // init() {

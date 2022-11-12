@@ -219,6 +219,7 @@ export default {
   }
   .subject_list {
     width: 100%;
+    margin-bottom: 60px;
     > li {
       display: block;
       margin-bottom: 44px;
