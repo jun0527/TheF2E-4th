@@ -51,7 +51,7 @@
         </div>
       </div>
     </div>
-    <button class="background_join-btn">
+    <button class="press-btn background_join-btn">
       <span class="join-btn_text">JOIN</span>
       <img
         class="join-btn_hand"
@@ -228,11 +228,6 @@ export default {
   bottom: 20px;
   width: 103px;
   height: 173px;
-  &:hover {
-    .icon-join {
-      background-image: url("@/assets/image/btn/btn_join_h.png");
-    }
-  }
   .join-btn_text {
     font-size: 24px;
     font-weight: 700;
@@ -241,12 +236,6 @@ export default {
   }
   .join-btn_hand {
     width: 57px;
-  }
-  .icon-join {
-    width: 103px;
-    height: 60px;
-    background-image: url("@/assets/image/btn/btn_join.png");
-    background-size: 103px 60px;
   }
 }
 @media (max-width: 1440px) {

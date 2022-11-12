@@ -64,7 +64,7 @@ export default {
 <style lang="scss" scope>
 @import "@/assets/css/colors.scss";
 .question-area {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 40px;
 }
 .question_title {

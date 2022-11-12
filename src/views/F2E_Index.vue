@@ -5,6 +5,7 @@
     <FixBackground></FixBackground>
     <Start></Start>
     <QuestionArea></QuestionArea>
+    <Contestant></Contestant>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import SidebarMenu from "@/components/SidebarMenu.vue";
 import FixBackground from "@/components/FixBackground.vue";
 import Start from "@/components/Start.vue";
 import QuestionArea from "@/components/QuestionArea.vue";
+import Contestant from "@/components/Contestant.vue";
 
 export default {
   name: "F2E_Index",
@@ -29,6 +31,7 @@ export default {
     FixBackground,
     Start,
     QuestionArea,
+    Contestant,
   },
   methods: {
     // init() {
