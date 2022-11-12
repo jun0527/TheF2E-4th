@@ -1,16 +1,20 @@
 <template>
   <div class="index">
     <F2EHeader></F2EHeader>
-    <!-- <Start></Start>
-    <QuestionArea></QuestionArea> -->
+    <SidebarMenu></SidebarMenu>
+    <FixBackground></FixBackground>
+    <Start></Start>
+    <QuestionArea></QuestionArea>
   </div>
 </template>
 
 <script>
 // import { gsap } from "gsap";
 import F2EHeader from "@/components/Header.vue";
-// import Start from "@/components/Start.vue";
-// import QuestionArea from "@/components/QuestionArea.vue";
+import SidebarMenu from "@/components/SidebarMenu.vue";
+import FixBackground from "@/components/FixBackground.vue";
+import Start from "@/components/Start.vue";
+import QuestionArea from "@/components/QuestionArea.vue";
 
 export default {
   name: "F2E_Index",
@@ -21,8 +25,10 @@ export default {
   },
   components: {
     F2EHeader,
-    // Start,
-    // QuestionArea,
+    SidebarMenu,
+    FixBackground,
+    Start,
+    QuestionArea,
   },
   methods: {
     // init() {

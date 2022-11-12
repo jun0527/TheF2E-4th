@@ -46,7 +46,7 @@ export default {
   },
 };
 </script>
-<style lang="scss">
+<style lang="scss" scope>
 @import "@/assets/css/colors.scss";
 .header {
   position: fixed;
@@ -81,12 +81,15 @@ export default {
     &:hover .icon-user-btn {
       background-image: url("@/assets/image/btn/btn_user_h.png");
     }
+    &:active .icon-user-btn {
+      background-image: url("@/assets/image/btn/btn_user_p.png");
+    }
   }
 }
 
-@media (max-width: 1430px) {
+@media (max-width: 1440px) {
   .header {
-    padding: 30px 20px;
+    padding: 30px 15px;
   }
 }
 @media (max-width: 768px) {
