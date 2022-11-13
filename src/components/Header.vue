@@ -55,6 +55,7 @@ export default {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  z-index: 9;
   padding: 30px 40px;
   .header_logo {
     width: 200px;

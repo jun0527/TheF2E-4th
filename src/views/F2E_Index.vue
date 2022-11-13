@@ -9,6 +9,7 @@
     <Subject></Subject>
     <ActivityTimeline></ActivityTimeline>
     <Awards></Awards>
+    <Sponsor></Sponsor>
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import Contestant from "@/components/Contestant.vue";
 import Subject from "@/components/Subject.vue";
 import ActivityTimeline from "@/components/ActivityTimeline.vue";
 import Awards from "@/components/Awards.vue";
+import Sponsor from "@/components/Sponsor.vue";
 
 export default {
   name: "F2E_Index",
@@ -41,6 +43,7 @@ export default {
     Subject,
     ActivityTimeline,
     Awards,
+    Sponsor,
   },
   methods: {
     // init() {
